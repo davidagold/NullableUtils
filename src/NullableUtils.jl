@@ -1,5 +1,7 @@
 module NullableUtils
 
-# package code goes here
+export @lift
+
+include("liftmacro.jl")
 
 end # module
